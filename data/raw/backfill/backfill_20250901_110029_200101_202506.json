@@ -1,0 +1,2654 @@
+{
+  "total": "294",
+  "dateFormat": "YYYY-MM",
+  "frequency": "monthly",
+  "data": [
+    {
+      "period": "2001-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2337.54938",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2001-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2014.65228",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2001-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1968.49312",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2001-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1739.08206",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2001-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1677.70854",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2001-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2292.85125",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2001-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2678.53152",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2001-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3055.1837",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2001-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2244.33591",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2001-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1798.71818",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2001-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1722.44503",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2001-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1961.87203",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2002-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2207.85008",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2002-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1836.2379",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2002-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1906.7844",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2002-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1804.94548",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2002-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1736.82733",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2002-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2330.52161",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2002-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3253.7731",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2002-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3224.16962",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2002-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2524.78426",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2002-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1876.35386",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2002-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1855.73927",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2002-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2613.3871",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2003-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2565.07177",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2003-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2112.58173",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2003-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2165.98179",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2003-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1782.16357",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2003-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1709.04103",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2003-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2171.12537",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2003-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3224.13103",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2003-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3305.90526",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2003-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2332.45345",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2003-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1805.52791",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2003-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1850.69577",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2003-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2342.44733",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2004-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2624.46139",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2004-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2291.93106",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2004-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2021.05855",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2004-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1825.7276",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2004-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2025.35415",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2004-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2463.99307",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2004-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3126.37904",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2004-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3073.73703",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2004-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2426.40957",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2004-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1881.77789",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2004-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1859.33336",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2004-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2399.96229",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2005-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2493.76398",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2005-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2231.30106",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2005-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2212.24776",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2005-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1883.83788",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2005-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1742.72081",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2005-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2765.36772",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2005-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3583.28253",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2005-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3756.20512",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2005-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2794.22404",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2005-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2097.134",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2005-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1957.85247",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2005-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2455.50565",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2006-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2395.30452",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2006-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2190.98233",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2006-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2126.13089",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2006-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1734.27889",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2006-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1847.42061",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2006-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2636.78949",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2006-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3716.86924",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2006-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3477.32306",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2006-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2305.45266",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2006-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1893.33493",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2006-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1957.58771",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2006-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2340.08166",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2007-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2444.83689",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2007-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2284.64485",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2007-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2311.41205",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2007-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1915.36035",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2007-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2014.99025",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2007-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2845.67722",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2007-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3205.3737",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2007-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3392.04346",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2007-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2631.47473",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2007-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2125.89377",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2007-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2077.30211",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2007-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2502.63761",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2008-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2540.41639",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2008-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2292.96215",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2008-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2126.70482",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2008-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1810.86824",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2008-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1845.18188",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2008-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2845.38261",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2008-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3687.00551",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2008-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3056.21178",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2008-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2512.05386",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2008-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1948.39948",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2008-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2033.02591",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2008-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2412.81037",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2009-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2751.27813",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2009-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2151.30366",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2009-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2178.48372",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2009-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1935.47112",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2009-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1853.0651",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2009-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2266.63024",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2009-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2826.49524",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2009-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3421.17879",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2009-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2283.84548",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2009-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1891.20738",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2009-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1860.23659",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2009-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2413.74854",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2010-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2713.13564",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2010-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2236.72566",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2010-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2052.90702",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2010-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1801.44443",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2010-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2082.04485",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2010-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2990.85366",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2010-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3979.51123",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2010-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3501.93281",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2010-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2710.17366",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2010-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1905.15251",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2010-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1887.49125",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2010-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2445.89531",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2011-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2956.05169",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2011-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2173.76455",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2011-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2104.28672",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2011-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1812.41543",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2011-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2015.59991",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2011-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2689.49656",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2011-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3853.38791",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2011-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3360.47561",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2011-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2682.31003",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2011-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1879.56689",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2011-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1719.77767",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2011-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2151.73706",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2012-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2488.86298",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2012-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2055.97416",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2012-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1878.05498",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2012-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1736.13528",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2012-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1976.2633",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2012-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2701.40486",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2012-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3818.6921",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2012-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3588.41665",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2012-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2407.61675",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2012-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1846.305",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2012-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2037.62215",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2012-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2127.60978",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2013-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2488.24833",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2013-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2129.6448",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2013-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2133.5787",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2013-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1749.31199",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2013-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1975.7017",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2013-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2683.12124",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2013-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3903.99585",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2013-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2989.08371",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2013-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2260.04512",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2013-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1875.25239",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2013-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1988.21362",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2013-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2368.44056",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2014-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2669.22686",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2014-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2242.45732",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2014-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2283.71527",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2014-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1804.64868",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2014-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1723.81599",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2014-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2555.66395",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2014-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3391.57085",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2014-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2884.40167",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2014-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2320.5108",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2014-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1792.89267",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2014-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1986.64514",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2014-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2237.0328",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2015-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2731.73979",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2015-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2265.83531",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2015-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2296.99427",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2015-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1727.83344",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2015-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2107.73772",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2015-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2678.03387",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2015-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3495.4775",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2015-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3419.09309",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2015-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2701.68169",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2015-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1816.9034",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2015-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1789.04619",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2015-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2111.90673",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2016-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2398.06431",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2016-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2130.87318",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2016-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1914.00957",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2016-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1691.60739",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2016-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1967.19664",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2016-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2623.83151",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2016-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3779.47629",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2016-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3877.0794",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2016-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2722.79784",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2016-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1883.35236",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2016-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1815.50751",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2016-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2286.92999",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2017-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2348.15913",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2017-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1912.48027",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2017-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2123.42636",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2017-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1676.91856",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2017-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1876.00028",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2017-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2699.30844",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2017-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3515.1825",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2017-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3070.31271",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2017-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2420.21905",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2017-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1904.82835",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2017-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1846.7939",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2017-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2368.24945",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2018-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2573.71668",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2018-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2004.09332",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2018-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2127.88845",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2018-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1803.24509",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2018-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1985.52737",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2018-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2656.03207",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2018-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3678.79463",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2018-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3814.16556",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2018-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2735.60656",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2018-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1969.25532",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2018-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1914.29878",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2018-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2268.06515",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2019-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2461.90064",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2019-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2084.187",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2019-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2094.76419",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2019-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1623.72741",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2019-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1860.29484",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2019-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2638.15533",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2019-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3984.99134",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2019-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3397.64088",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2019-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2501.00642",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2019-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1805.19549",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2019-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1871.55459",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2019-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2289.13686",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2020-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2274.67998",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2020-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1964.06839",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2020-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1847.26075",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2020-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1943.75675",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2020-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2017.94748",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2020-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2885.3764",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2020-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "4327.14252",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2020-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3737.37844",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2020-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2532.35959",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2020-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1779.02143",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2020-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1907.93412",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2020-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2459.93115",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2021-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2612.83501",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2021-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2225.32074",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2021-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2143.25484",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2021-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1775.58497",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2021-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2016.44984",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2021-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3175.17587",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2021-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3769.61288",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2021-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3746.76116",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2021-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2595.7406",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2021-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1868.03866",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2021-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1919.15629",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2021-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2242.44014",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2022-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2735.27162",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2022-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2128.74468",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2022-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1938.88845",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2022-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1761.79505",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2022-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2152.20312",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2022-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2787.00783",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2022-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "4172.12541",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2022-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "4026.18402",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2022-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2417.13795",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2022-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1633.9079",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2022-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1852.56297",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2022-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2456.36299",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2023-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2284.06208",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2023-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2040.31639",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2023-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2048.3646",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2023-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1675.04587",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2023-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1861.3934",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2023-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2554.50671",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2023-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3970.85545",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2023-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3270.93554",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2023-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2591.40508",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2023-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1878.00331",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2023-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1952.52646",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2023-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2287.45611",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2024-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2560.07355",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2024-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2149.33381",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2024-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1825.0148",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2024-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1839.64741",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2024-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2143.76569",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2024-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3347.43337",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2024-07",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "4280.0071",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2024-08",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3585.70205",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2024-09",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2022.91349",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2024-10",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1829.11477",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2024-11",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1866.22803",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2024-12",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2346.42358",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2025-01",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2731.90817",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2025-02",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2241.1025",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2025-03",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "2020.35897",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2025-04",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1791.92457",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2025-05",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "1901.98114",
+      "sales-units": "million kilowatt hours"
+    },
+    {
+      "period": "2025-06",
+      "stateid": "NJ",
+      "stateDescription": "New Jersey",
+      "sectorid": "RES",
+      "sectorName": "residential",
+      "sales": "3148.66729",
+      "sales-units": "million kilowatt hours"
+    }
+  ],
+  "description": "Electricity sales to ultimate customer by state and sector (number of customers, average price, revenue, and megawatthours of sales).  \n    Sources: Forms EIA-826, EIA-861, EIA-861M"
+}

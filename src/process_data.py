@@ -20,7 +20,7 @@ def load_latest_raw():
 
 def transform(data):
     # The actual data from EIA is under "response" -> "data"
-    records = data.get("response", {}).get("data", [])
+    records = data.get("data", [])
 
     df = pd.DataFrame(records)
 

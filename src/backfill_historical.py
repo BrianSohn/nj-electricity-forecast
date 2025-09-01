@@ -33,7 +33,7 @@ PARAMS = {
 def fetch_data():
     response = requests.get(API_URL, params=PARAMS)
     response.raise_for_status()
-    return response.json()
+    return response.json().get("response", {})
 
 def save_raw(data):
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
