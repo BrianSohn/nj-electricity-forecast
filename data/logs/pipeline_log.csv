@@ -1,0 +1,2 @@
+timestamp,script,status
+2025-09-07 14:52:40,backfill_historical.py,Backfill completed. 294 rows from 2001-01 to 2025-06

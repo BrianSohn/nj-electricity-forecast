@@ -5,3 +5,5 @@ python-dotenv
 matplotlib
 pyarrow
 fastparquet
+statsmodels
+scikit-learn
