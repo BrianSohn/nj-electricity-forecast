@@ -1,0 +1,19 @@
+{
+  "model_name": "sarima_v1",
+  "order": [
+    1,
+    1,
+    2
+  ],
+  "seasonal_order": [
+    1,
+    1,
+    1,
+    12
+  ],
+  "trained_from": "2001-01-01",
+  "trained_through": "2025-06-01",
+  "last_observed": "2025-06-01",
+  "created_at": "2025-09-07 22:18:16",
+  "processed_file": "nj-electricity-forecast/data/processed/electricity_sales.parquet"
+}
