@@ -15,6 +15,11 @@ jobs:
   run-monthly-pipeline:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
 
     # Minimal permissions (adjust if you need to write to the repo)
     permissions:
@@ -46,18 +51,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # 5) Prepare env secrets for scripts (these come from GitHub Secrets)
-      #    NOTE: set these secrets in your repo settings:
-      #          SUPABASE_DB_URL, SUPABASE_URL, SUPABASE_KEY, EIA_API_KEY
-      - name: Export secrets to env
-        run: echo "Secrets loaded into environment for this job"
-        env:
-          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
-
-      # 6) Run the monthly ingestion with retries and capture logs
+      # 5) Run the monthly ingestion with retries and capture logs
       - name: Run monthly_data_ingest (with retry & backoff)
         id: ingest
         run: |
@@ -84,7 +78,7 @@ jobs:
             fi
           done
 
-      # 7) Run the monthly forecast (note: script itself will no-op if no new obs)
+      # 6) Run the monthly forecast (note: script itself will no-op if no new obs)
       - name: Run monthly_forecast
         id: forecast
         run: |
@@ -92,7 +86,7 @@ jobs:
           FORECAST_LOG=forecast.log
           python src/monthly_forecast.py 2>&1 | tee $FORECAST_LOG
 
-      # 8) Upload logs as artifacts (always run so you can inspect logs)
+      # 7) Upload logs as artifacts (always run so you can inspect logs)
       - name: Upload logs (artifact)
         if: always()
         uses: actions/upload-artifact@v4
