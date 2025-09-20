@@ -23,13 +23,27 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 from supabase import create_client
 from dotenv import load_dotenv
+import streamlit as st
 
 load_dotenv()
 
 # ---------- Configuration ----------
-DB_URL = os.getenv("SUPABASE_DB_URL")
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+def get_secret(name: str) -> str:
+    """
+    Fetch secrets in a priority order:
+    1. Streamlit Cloud (st.secrets)
+    2. Environment variables (.env or GitHub Actions secrets)
+    """
+    try:
+        # Attempt to get the secret from Streamlit's secrets
+        return st.secrets[name]
+    except:
+        # Fallback to get the secret from environment variables for other contexts
+        return os.getenv(name)
+
+DB_URL = get_secret("SUPABASE_DB_URL")
+SUPABASE_URL = get_secret("SUPABASE_URL")
+SUPABASE_KEY = get_secret("SUPABASE_KEY")
 
 if DB_URL is None or SUPABASE_URL is None or SUPABASE_KEY is None:
     raise RuntimeError("Please configure SUPABASE_DB_URL, SUPABASE_URL and SUPABASE_KEY in .env")

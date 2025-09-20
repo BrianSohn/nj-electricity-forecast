@@ -10,7 +10,6 @@ Functions:
 import os
 import requests
 import pandas as pd
-from datetime import datetime
 from dotenv import load_dotenv
 from typing import Tuple, Optional
 
