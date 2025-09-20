@@ -1,0 +1,104 @@
+name: Monthly Ingest & Forecast
+
+# Schedule: run once monthly (10th day at 07:00 UTC) and allow manual runs via UI
+on:
+  schedule:
+    - cron: '0 7 10 * *'       # At 07:00 UTC on day-of-month 10
+  workflow_dispatch: {}        # Allow manual trigger from Actions UI
+
+# Prevent overlapping runs of this workflow
+concurrency:
+  group: monthly-ingest-and-forecast
+  cancel-in-progress: true
+
+jobs:
+  run-monthly-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    # Minimal permissions (adjust if you need to write to the repo)
+    permissions:
+      contents: read
+
+    steps:
+      # 1) Checkout the repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2) Setup Python
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      # 3) Cache pip downloads to speed up installs
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      # 4) Install dependencies
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 5) Prepare env secrets for scripts (these come from GitHub Secrets)
+      #    NOTE: set these secrets in your repo settings:
+      #          SUPABASE_DB_URL, SUPABASE_URL, SUPABASE_KEY, EIA_API_KEY
+      - name: Export secrets to env
+        run: echo "Secrets loaded into environment for this job"
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+
+      # 6) Run the monthly ingestion with retries and capture logs
+      - name: Run monthly_data_ingest (with retry & backoff)
+        id: ingest
+        run: |
+          set -euo pipefail
+          RETRIES=3
+          SLEEP=10
+          INGEST_LOG=ingest.log
+          # Try the command up to RETRIES times with exponential backoff
+          for attempt in $(seq 1 $RETRIES); do
+            echo "=== Ingest attempt $attempt/$RETRIES ==="
+            if python src/monthly_data_ingest.py 2>&1 | tee $INGEST_LOG; then
+              echo "Ingest succeeded on attempt $attempt"
+              break
+            else
+              echo "Ingest failed on attempt $attempt"
+              if [ "$attempt" -lt "$RETRIES" ]; then
+                echo "Sleeping ${SLEEP}s before retry..."
+                sleep $SLEEP
+                SLEEP=$(( SLEEP * 2 ))
+              else
+                echo "All ingest attempts failed. Exiting with non-zero status."
+                exit 1
+              fi
+            fi
+          done
+
+      # 7) Run the monthly forecast (note: script itself will no-op if no new obs)
+      - name: Run monthly_forecast
+        id: forecast
+        run: |
+          set -euo pipefail
+          FORECAST_LOG=forecast.log
+          python src/monthly_forecast.py 2>&1 | tee $FORECAST_LOG
+
+      # 8) Upload logs as artifacts (always run so you can inspect logs)
+      - name: Upload logs (artifact)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-logs-${{ github.run_id }}
+          path: |
+            ingest.log
+            forecast.log
+
