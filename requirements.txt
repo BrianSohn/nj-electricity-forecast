@@ -7,3 +7,6 @@ pyarrow
 fastparquet
 statsmodels
 scikit-learn
+sqlalchemy
+psycopg2-binary
+supabase

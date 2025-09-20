@@ -1,4 +1,0 @@
-timestamp,script,status
-2025-09-07 14:52:40,backfill_historical.py,Backfill completed. 294 rows from 2001-01 to 2025-06
-2025-09-07 22:18:16,train_model.py,Trained SARIMA model sarima_v1 on 2001-01-01 to 2025-06-01 (last observed 2025-06-01)
-2025-09-07 22:36:19,monthly_forecast.py,Forecasts written for 2025-07 (SARIMA & Seasonal Naive)
