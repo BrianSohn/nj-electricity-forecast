@@ -268,6 +268,22 @@ def append_forecast_record(period_value: date, model_name: str, forecast_value: 
     print(f"[FORECAST] model={model_name} period={period_value} forecast={forecast_value}")
 
 
+def load_forecasts() -> pd.DataFrame:
+    """
+    Load forecasts (all models) from Supabase.
+    """
+    query = """
+        SELECT f.period, m.model_name as model, f.forecast
+        FROM forecasts f
+        LEFT JOIN models m ON f.model_id = m.id
+        ORDER BY f.period;
+    """
+    df = pd.read_sql(query, engine)
+    df["period"] = pd.to_datetime(df["period"])
+    df["forecast"] = pd.to_numeric(df["forecast"], errors="coerce")
+    return df
+
+
 # ---------- Raw JSON storage ----------
 def save_raw_json(raw_json: dict, remote_path: str) -> None:
     """
@@ -278,14 +294,3 @@ def save_raw_json(raw_json: dict, remote_path: str) -> None:
     supabase.storage.from_(RAW_BUCKET).upload(remote_path, raw_bytes, {"content-type": "application/json"})
     print(f"[RAW] Uploaded raw JSON to {RAW_BUCKET}/{remote_path}")
 
-
-# ---------- Utility ----------
-def iso_month_str_to_date(period_str: str) -> date:
-    """
-    Convert 'YYYY-MM' or 'YYYY-MM-DD' or pandas Timestamp to Python date (first day of month if 'YYYY-MM').
-    """
-    if isinstance(period_str, (pd.Timestamp, datetime)):
-        return pd.to_datetime(period_str).date()
-    if len(period_str) == 7:  # 'YYYY-MM'
-        return pd.to_datetime(period_str + "-01").date()
-    return pd.to_datetime(period_str).date()
