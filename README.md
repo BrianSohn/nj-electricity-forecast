@@ -3,8 +3,8 @@
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://nj-electricity-forecast.streamlit.app/)
 
 ## 📌 Project Overview
-This project builds an **end-to-end machine learning pipeline** for forecasting monthly residential electricity sales in New Jersey. <br>
-It demonstrates how to build a lightweight and automated forecasting pipeline with **data ingestion, preprocessing, modeling, evaluation, automation, and visualization**, using Supabase, GitHub Actions, and Streamlit.
+- This project builds an **end-to-end machine learning pipeline** for forecasting monthly residential electricity sales in New Jersey.
+- It demonstrates how to build a lightweight and automated forecasting pipeline with **data ingestion, preprocessing, storage, modeling, inference, evaluation, automation, and visualization**, using Supabase, GitHub Actions, and Streamlit.
 
 ## 🎯 Purpose
 - Forecast monthly residential electricity sales in NJ using SARIMA and a benchmark model.
