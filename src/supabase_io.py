@@ -242,7 +242,7 @@ def save_model_binary(model_obj: object, model_name: str, remote_path: Optional[
     # Upload bytes to Supabase storage
     # NOTE: supabase.storage.from_(bucket).upload signature varies by library version.
     # We attempt to upload bytes directly (this is standard accepted usage).
-    supabase.storage.from_(MODEL_BUCKET).upload(remote_path, data, {"content-type": "application/octet-stream"})
+    supabase.storage.from_(MODEL_BUCKET).upload(remote_path, data, {"content-type": "application/octet-stream"}, file_options={"upsert": True})
     return remote_path
 
 
@@ -316,6 +316,6 @@ def save_raw_json(raw_json: dict, remote_path: str) -> None:
     remote_path example: 'backfill/2001_2002.json' or 'monthly/202507.json'
     """
     raw_bytes = json.dumps(raw_json, default=str).encode("utf-8")
-    supabase.storage.from_(RAW_BUCKET).upload(remote_path, raw_bytes, {"content-type": "application/json"})
+    supabase.storage.from_(RAW_BUCKET).upload(remote_path, raw_bytes, {"content-type": "application/json"}, file_options={"upsert": True})
     print(f"[RAW] Uploaded raw JSON to {RAW_BUCKET}/{remote_path}")
 
