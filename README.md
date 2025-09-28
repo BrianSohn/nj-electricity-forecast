@@ -3,9 +3,8 @@
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://nj-electricity-forecast.streamlit.app/)
 
 ## 📌 Project Overview
-This project builds an **end-to-end machine learning pipeline** for forecasting monthly residential electricity sales in New Jersey. 
-It integrates **data ingestion, preprocessing, modeling, evaluation, automation, and visualization** into a fully reproducible workflow. 
-This project demonstrates how to build a lightweight, automated, and production-ready forecasting pipeline with Supabase, GitHub Actions, and Streamlit, making it a strong foundation for both applied forecasting and modern MLOps workflows.
+This project builds an **end-to-end machine learning pipeline** for forecasting monthly residential electricity sales in New Jersey. <br>
+It demonstrates how to build a lightweight and automated forecasting pipeline with **data ingestion, preprocessing, modeling, evaluation, automation, and visualization**, using Supabase, GitHub Actions, and Streamlit.
 
 ## 🎯 Purpose
 - Forecast monthly residential electricity sales in NJ using SARIMA and a benchmark model.
@@ -18,7 +17,7 @@ This project demonstrates how to build a lightweight, automated, and production-
 - **Source**: [EIA (U.S. Energy Information Administration)](https://www.eia.gov/)  
 - **Frequency**: Monthly  
 - **Granularity**: NJ Residential Electricity Sales (aggregated)  
-- **Storage**: Raw and processed datasets stored in **Supabase Object Storage / Postgres**.
+- **Storage**: Raw and processed datasets stored in **Supabase Object Storage / Postgres DB**.
 
 ## 🤖 Modeling
 - Models
@@ -35,7 +34,7 @@ This project demonstrates how to build a lightweight, automated, and production-
 
 ## ⚙️ Tools & Stack
 - **Data & Storage**: Supabase (Postgres + Buckets)
-- **Modeling**: Python (Statsmodels, pandas, numpy)
+- **Modeling**: Python (Statsmodels)
 - **Automation**: GitHub Actions (cron-based scheduled workflows)
 - **Dashboard**: Steamlit
 
