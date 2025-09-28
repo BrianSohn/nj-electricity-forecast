@@ -70,7 +70,7 @@ def main():
 
         # Append new observations to fitted model state (no refit)
         # Statsmodels SARIMAXResults has .append(endog, refit=False)
-        series_to_append = pd.Series(new_obs_df["sales"].values, index=new_obs_df["period"])
+        series_to_append = pd.Series(new_obs_df["sales"].values, index=new_obs_df["period"], name="sales")
         updated_model = model_obj.append(series_to_append, refit=False)
 
         # Save updated model binary back to storage (overwrite)
