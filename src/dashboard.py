@@ -1,4 +1,9 @@
-# dashboard.py
+# src/dashboard.py
+"""
+Streamlit dashboard for visualizing NJ residential electricity sales and model forecasts.
+Loads data from Supabase, provides interactive filters, and displays time series and evaluation metrics.
+Updated monthly with new EIA data and forecasts.
+"""
 
 import streamlit as st
 import pandas as pd

@@ -1,0 +1,69 @@
+name: Supabase Keepalive
+
+# Schedule: run every Monday and Thursday at 18:00 UTC and allow manual runs via UI
+on:
+  schedule:
+    - cron: '0 18 * * 1,4'       # At 18:00 UTC on Monday and Thursday
+  workflow_dispatch: {}        # Allow manual trigger from Actions UI
+
+# Prevent overlapping runs of this workflow
+concurrency:
+  group: supabase-keepalive
+  cancel-in-progress: true
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+
+    # Minimal permissions (adjust if you need to write to the repo)
+    permissions:
+      contents: read
+
+    steps:
+      # 1) Checkout the repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2) Setup Python
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      # 3) Cache pip downloads to speed up installs
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      # 4) Install dependencies
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 5) Run keepalive script
+      - name: Run keepalive script
+        id: keepalive
+        run: |
+          set -euo pipefail
+          KEEPALIVE_LOG=keepalive.log
+          python src/keepalive.py 2>&1 | tee $KEEPALIVE_LOG
+
+      # 6) Upload logs as artifacts (always run so you can inspect logs)
+      - name: Upload logs (artifact)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: keepalive-logs-${{ github.run_id }}
+          path: |
+            keepalive.log
+

@@ -114,6 +114,17 @@ def load_electricity_sales() -> pd.DataFrame:
         df["sales"] = pd.to_numeric(df["sales"])
     return df
 
+def load_electricity_sales_row() -> pd.DataFrame:  
+    """
+    Return one row from the electricity_sales table as a DataFrame.
+    Used to ping Supabase to keep project alive. 
+    """
+    with engine.begin() as conn:
+        df = pd.read_sql(text("SELECT period, sales FROM electricity_sales LIMIT 1"), conn)
+    if not df.empty:
+        df["period"] = pd.to_datetime(df["period"])
+        df["sales"] = pd.to_numeric(df["sales"])
+    return df
 
 def get_latest_period() -> Optional[date]:
     """Return the max(period) in electricity_sales or None if empty."""
