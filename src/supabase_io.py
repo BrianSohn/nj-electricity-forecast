@@ -76,6 +76,18 @@ def log_event(script: str, status: str, details: Optional[str] = None) -> None:
         )
     print(f"[LOG] {ts.isoformat()} | {script} | {status} | {details}")
 
+def delete_logs_from_script(script: str) -> None:
+    """
+    Delete all log rows from the logs table for a given script.
+    """
+    with engine.begin() as conn:
+        conn.execute(
+            text("""
+                DELETE FROM logs WHERE script = :script
+            """),
+            {"script": script},
+        )
+    print(f"[LOG] Deleted all logs for script: {script}")
 
 # ---------- Electricity processed data ----------
 def upsert_electricity_sales(df: pd.DataFrame) -> None:
