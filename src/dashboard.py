@@ -61,7 +61,7 @@ month_strs = month_options.astype(str)
 start_month, end_month = st.sidebar.select_slider(
     "Select Month Range",
     options=month_strs,
-    value=(month_strs[-36] if len(month_strs) >= 36 else month_strs[0], month_strs[-1])
+    value=(month_strs[-24] if len(month_strs) >= 24 else month_strs[0], month_strs[-1])
 )
 start_month = pd.Period(start_month, freq="M")
 end_month = pd.Period(end_month, freq="M")
@@ -69,7 +69,8 @@ end_month = pd.Period(end_month, freq="M")
 # 3. Evaluation period selector
 eval_period = st.sidebar.selectbox(
     "Evaluation Period",
-    ["Last Month", "Last 3 Months", "Last 6 Months", "Last 12 Months"]
+    ["Last Month", "Last 3 Months", "Last 6 Months", "Last 12 Months"],
+    index=["Last Month", "Last 3 Months", "Last 6 Months", "Last 12 Months"].index("Last 6 Months")
 )
 period_map = {
     "Last Month": 1,
