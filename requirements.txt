@@ -12,3 +12,5 @@ SQLAlchemy==2.0.43
 statsmodels==0.14.5
 streamlit==1.49.1
 supabase==2.19.0
+supabase-auth==2.19.0
+supabase-functions==2.19.0
