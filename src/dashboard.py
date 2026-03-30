@@ -27,6 +27,7 @@ st.title("⚡ Electricity Sales Forecast Dashboard")
 st.markdown(
     "Visualizing actual (NJ residential) electricity sales and model forecasts. "
     "Data is updated monthly from the EIA API."
+    "EIA API lags by ~3 months, so historicals and 'forecasts' are actually lagging."
 )
 
 # --- Load data ---
